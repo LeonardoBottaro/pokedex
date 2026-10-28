@@ -24,3 +24,6 @@ Desktop.ini
 
 # Mantém o repositório do Polished Crystal separado.
 polishedcrystal/
+
+# Ignora arquivos compilados do Java.
+*.class
