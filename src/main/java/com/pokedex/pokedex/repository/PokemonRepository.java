@@ -1,17 +1,19 @@
 package com.pokedex.pokedex.repository;
 
-// Importa a entidade persistida no banco.
 import com.pokedex.pokedex.model.Pokemon;
-
-// Importa a interface de persistência do Spring Data JPA.
 import org.springframework.data.jpa.repository.JpaRepository;
 
-// Importa o tipo usado quando um resultado pode não existir.
+import java.util.List;
 import java.util.Optional;
 
-// Define as operações de acesso à tabela pokemon.
 public interface PokemonRepository extends JpaRepository<Pokemon, Integer> {
 
-    // Busca um Pokémon pelo nome, retornando um resultado opcional.
+    // Busca pelo nome exato, diferenciando maiúsculas/minúsculas conforme o banco.
     Optional<Pokemon> findByName(String name);
+
+    // Busca pelo nome exato, ignorando maiúsculas/minúsculas.
+    Optional<Pokemon> findByNameIgnoreCase(String name);
+
+    // Busca por parte do nome, ignorando maiúsculas/minúsculas.
+    List<Pokemon> findByNameContainingIgnoreCaseOrderByNameAsc(String name);
 }

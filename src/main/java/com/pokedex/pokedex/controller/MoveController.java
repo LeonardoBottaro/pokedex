@@ -1,45 +1,24 @@
+
 package com.pokedex.pokedex.controller;
 
-// Importa a entidade que representa um movimento Pokémon.
 import com.pokedex.pokedex.model.Move;
-
-// Importa o repositório responsável pelas consultas ao banco de dados.
 import com.pokedex.pokedex.repository.MoveRepository;
-
-// Importa o serviço responsável pela importação dos movimentos.
 import com.pokedex.pokedex.service.MoveImportService;
 
-// Importa as classes utilizadas para construir respostas HTTP.
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
-// Importa as anotações utilizadas para definir os endpoints.
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-// Importa a classe utilizada para tratar erros de leitura de arquivos.
 import java.io.IOException;
-
-// Importa as classes utilizadas para trabalhar com listas e resultados opcionais.
 import java.util.List;
 import java.util.Optional;
 
-// Indica ao Spring que esta classe disponibiliza endpoints HTTP.
 @RestController
-
-// Define o prefixo comum de todas as rotas deste controller.
 @RequestMapping("/api/moves")
 public class MoveController {
 
-    // Repositório utilizado para consultar os movimentos cadastrados.
     private final MoveRepository moveRepository;
-
-    // Serviço utilizado para importar os movimentos.
     private final MoveImportService moveImportService;
 
-    // Recebe as dependências necessárias por injeção de dependência.
     public MoveController(
             MoveRepository moveRepository,
             MoveImportService moveImportService) {
@@ -48,41 +27,69 @@ public class MoveController {
     }
 
     // GET /api/moves
-    // Retorna todos os movimentos cadastrados no banco de dados.
+    // Lista todos os movimentos.
     @GetMapping
     public List<Move> listarTodos() {
         return moveRepository.findAll();
     }
 
     // GET /api/moves/{name}
-    // Busca um movimento pelo nome interno, como FIRE_PUNCH.
+    // Busca pelo nome exato, ignorando maiúsculas/minúsculas.
     @GetMapping("/{name}")
     public ResponseEntity<Move> buscarPorNome(@PathVariable String name) {
+        Optional<Move> movimento = moveRepository.findByNameIgnoreCase(name);
 
-        // Pesquisa o movimento usando o método definido no repositório.
-        Optional<Move> movimento = moveRepository.findByName(name);
-
-        // Retorna HTTP 200 se encontrar o movimento ou HTTP 404 se não encontrar.
         return movimento.map(ResponseEntity::ok)
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
+    // GET /api/moves/buscar?nome=fire
+    // GET /api/moves/buscar?tipo=FIRE
+    // GET /api/moves/buscar?categoria=SPECIAL
+    // Os parâmetros podem ser combinados.
+    @GetMapping("/buscar")
+    public List<Move> buscar(
+            @RequestParam(required = false) String nome,
+            @RequestParam(required = false) String tipo,
+            @RequestParam(required = false) String categoria) {
+
+        // Sem filtros, retorna todos os movimentos.
+        if (vazio(nome) && vazio(tipo) && vazio(categoria)) {
+            return listarTodos();
+        }
+
+        // Começa com todos os movimentos e aplica os filtros informados.
+        return moveRepository.findAll().stream()
+                .filter(m -> vazio(nome)
+                        || (m.getName() != null
+                        && m.getName().toLowerCase()
+                        .contains(nome.trim().toLowerCase())))
+                .filter(m -> vazio(tipo)
+                        || (m.getType() != null
+                        && m.getType().equalsIgnoreCase(tipo.trim())))
+                .filter(m -> vazio(categoria)
+                        || (m.getCategory() != null
+                        && m.getCategory().equalsIgnoreCase(categoria.trim())))
+                .sorted((a, b) -> a.getName().compareToIgnoreCase(b.getName()))
+                .toList();
+    }
+
+    private boolean vazio(String valor) {
+        return valor == null || valor.isBlank();
+    }
+
     // POST /api/moves/importar
-    // Importa os movimentos usando o serviço existente.
+    // Mantém a importação existente.
     @PostMapping("/importar")
     public ResponseEntity<String> importarMovimentos() {
-
         try {
-            // Executa a importação e recebe a quantidade de movimentos processados.
             int quantidade = moveImportService.importarMovimentos();
 
-            // Retorna HTTP 200 com a quantidade processada.
             return ResponseEntity.ok(
                     "Importação concluída. Movimentos processados: " + quantidade
             );
 
         } catch (IOException erro) {
-            // Retorna HTTP 500 se ocorrer um problema ao ler o arquivo.
             return ResponseEntity.internalServerError().body(
                     "Erro ao importar movimentos: " + erro.getMessage()
             );
