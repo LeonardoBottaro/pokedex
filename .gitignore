@@ -1,5 +1,8 @@
 
-# Ignora os arquivos compilados pelo Maven.
+# Ignora arquivos compilados do Java.
+*.class
+
+# Ignora os arquivos gerados pelo Maven.
 target/
 
 # Ignora configurações pessoais do VS Code.
