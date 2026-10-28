@@ -1,0 +1,23 @@
+
+# Ignora os arquivos compilados pelo Maven.
+target/
+
+# Ignora configurações pessoais do VS Code.
+.vscode/
+
+# Ignora arquivos de ambiente que podem conter senhas.
+.env
+.env.*
+
+# Permite versionar um modelo de variáveis de ambiente.
+!.env.example
+
+# Ignora arquivos de log.
+*.log
+
+# Ignora arquivos temporários do Windows.
+Thumbs.db
+Desktop.ini
+
+# Mantém o repositório do Polished Crystal separado.
+polishedcrystal/

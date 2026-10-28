@@ -1,0 +1,2296 @@
+[ {
+  "name" : "ACROBATICS",
+  "effect" : "EFFECT_CONDITIONAL_BOOST",
+  "power" : 55,
+  "type" : "FLYING",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "KARATE_CHOP",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 50,
+  "type" : "FIGHTING",
+  "accuracy" : 100,
+  "pp" : 25,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DOUBLE_SLAP",
+  "effect" : "EFFECT_MULTI_HIT",
+  "power" : 15,
+  "type" : "NORMAL",
+  "accuracy" : 85,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "AERIAL_ACE",
+  "effect" : "EFFECT_ALWAYS_HIT",
+  "power" : 60,
+  "type" : "FLYING",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DRAGON_CLAW",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 80,
+  "type" : "DRAGON",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "PAY_DAY",
+  "effect" : "EFFECT_PAY_DAY",
+  "power" : 40,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "FIRE_PUNCH",
+  "effect" : "EFFECT_BURN_HIT",
+  "power" : 75,
+  "type" : "FIRE",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 10,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "ICE_PUNCH",
+  "effect" : "EFFECT_FREEZE_HIT",
+  "power" : 75,
+  "type" : "ICE",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 10,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "THUNDERPUNCH",
+  "effect" : "EFFECT_PARALYZE_HIT",
+  "power" : 75,
+  "type" : "ELECTRIC",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 10,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SCRATCH",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 40,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 35,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "X_SCISSOR",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 80,
+  "type" : "BUG",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "NIGHT_SLASH",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 70,
+  "type" : "DARK",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "AIR_SLASH",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 75,
+  "type" : "FLYING",
+  "accuracy" : 95,
+  "pp" : 15,
+  "effectChance" : 30,
+  "category" : "SPECIAL"
+}, {
+  "name" : "SWORDS_DANCE",
+  "effect" : "EFFECT_ATTACK_UP_2",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "CUT",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 50,
+  "type" : "NORMAL",
+  "accuracy" : 95,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "GUST",
+  "effect" : "EFFECT_GUST",
+  "power" : 40,
+  "type" : "FLYING",
+  "accuracy" : 100,
+  "pp" : 35,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "WING_ATTACK",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 60,
+  "type" : "FLYING",
+  "accuracy" : 100,
+  "pp" : 35,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SUCKER_PUNCH",
+  "effect" : "EFFECT_SUCKER_PUNCH",
+  "power" : 70,
+  "type" : "DARK",
+  "accuracy" : 100,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "FLY",
+  "effect" : "EFFECT_FLY",
+  "power" : 90,
+  "type" : "FLYING",
+  "accuracy" : 95,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DAZZLINGLEAM",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 80,
+  "type" : "FAIRY",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "VOLT_SWITCH",
+  "effect" : "EFFECT_SWITCH_HIT",
+  "power" : 70,
+  "type" : "ELECTRIC",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "VINE_WHIP",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 45,
+  "type" : "GRASS",
+  "accuracy" : 100,
+  "pp" : 25,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "STOMP",
+  "effect" : "EFFECT_STOMP",
+  "power" : 65,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DOUBLE_KICK",
+  "effect" : "EFFECT_DOUBLE_HIT",
+  "power" : 30,
+  "type" : "FIGHTING",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "FLARE_BLITZ",
+  "effect" : "EFFECT_FLARE_BLITZ",
+  "power" : 120,
+  "type" : "FIRE",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 10,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "STONE_EDGE",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 100,
+  "type" : "ROCK",
+  "accuracy" : 80,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "FOCUS_BLAST",
+  "effect" : "EFFECT_SP_DEF_DOWN_HIT",
+  "power" : 120,
+  "type" : "FIGHTING",
+  "accuracy" : 70,
+  "pp" : 5,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "TOXIC_SPIKES",
+  "effect" : "EFFECT_TOXIC_SPIKES",
+  "power" : 0,
+  "type" : "POISON",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "HEADBUTT",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 70,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "HORN_ATTACK",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 65,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 25,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "TRICK",
+  "effect" : "EFFECT_TRICK",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "HEX",
+  "effect" : "EFFECT_CONDITIONAL_BOOST",
+  "power" : 65,
+  "type" : "GHOST",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "TACKLE",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 40,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 35,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "BODY_SLAM",
+  "effect" : "EFFECT_BODY_SLAM",
+  "power" : 85,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "WRAP",
+  "effect" : "EFFECT_TRAP",
+  "power" : 15,
+  "type" : "NORMAL",
+  "accuracy" : 90,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "TAKE_DOWN",
+  "effect" : "EFFECT_RECOIL_HIT",
+  "power" : 90,
+  "type" : "NORMAL",
+  "accuracy" : 85,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "THRASH",
+  "effect" : "EFFECT_RAMPAGE",
+  "power" : 120,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DOUBLE_EDGE",
+  "effect" : "EFFECT_RECOIL_HIT",
+  "power" : 120,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "HAIL",
+  "effect" : "EFFECT_HAIL",
+  "power" : 0,
+  "type" : "ICE",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "POISON_STING",
+  "effect" : "EFFECT_POISON_HIT",
+  "power" : 15,
+  "type" : "POISON",
+  "accuracy" : 100,
+  "pp" : 35,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "U_TURN",
+  "effect" : "EFFECT_SWITCH_HIT",
+  "power" : 70,
+  "type" : "BUG",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "PIN_MISSILE",
+  "effect" : "EFFECT_MULTI_HIT",
+  "power" : 25,
+  "type" : "BUG",
+  "accuracy" : 95,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "LEER",
+  "effect" : "EFFECT_DEFENSE_DOWN",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "BITE",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 60,
+  "type" : "DARK",
+  "accuracy" : 100,
+  "pp" : 25,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "GROWL",
+  "effect" : "EFFECT_ATTACK_DOWN",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 40,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ROAR",
+  "effect" : "EFFECT_ROAR",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SING",
+  "effect" : "EFFECT_SLEEP",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 55,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SUPERSONIC",
+  "effect" : "EFFECT_CONFUSE",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 55,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SONIC_BOOM",
+  "effect" : "EFFECT_STATIC_DAMAGE",
+  "power" : 20,
+  "type" : "NORMAL",
+  "accuracy" : 90,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "DISABLE",
+  "effect" : "EFFECT_DISABLE",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ACID",
+  "effect" : "EFFECT_SP_DEF_DOWN_HIT",
+  "power" : 40,
+  "type" : "POISON",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "EMBER",
+  "effect" : "EFFECT_BURN_HIT",
+  "power" : 40,
+  "type" : "FIRE",
+  "accuracy" : 100,
+  "pp" : 25,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "FLAMETHROWER",
+  "effect" : "EFFECT_BURN_HIT",
+  "power" : 90,
+  "type" : "FIRE",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "CALM_MIND",
+  "effect" : "EFFECT_CALM_MIND",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "WATER_GUN",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 40,
+  "type" : "WATER",
+  "accuracy" : 100,
+  "pp" : 25,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "HYDRO_PUMP",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 110,
+  "type" : "WATER",
+  "accuracy" : 80,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "SURF",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 90,
+  "type" : "WATER",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "ICE_BEAM",
+  "effect" : "EFFECT_FREEZE_HIT",
+  "power" : 90,
+  "type" : "ICE",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "BLIZZARD",
+  "effect" : "EFFECT_FREEZE_HIT",
+  "power" : 110,
+  "type" : "ICE",
+  "accuracy" : 70,
+  "pp" : 5,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "PSYBEAM",
+  "effect" : "EFFECT_CONFUSE_HIT",
+  "power" : 65,
+  "type" : "PSYCHIC",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "BUBBLE_BEAM",
+  "effect" : "EFFECT_SPEED_DOWN_HIT",
+  "power" : 65,
+  "type" : "WATER",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "AURORA_BEAM",
+  "effect" : "EFFECT_ATTACK_DOWN_HIT",
+  "power" : 65,
+  "type" : "ICE",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "HYPER_BEAM",
+  "effect" : "EFFECT_HYPER_BEAM",
+  "power" : 150,
+  "type" : "NORMAL",
+  "accuracy" : 90,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "PECK",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 35,
+  "type" : "FLYING",
+  "accuracy" : 100,
+  "pp" : 35,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DRILL_PECK",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 80,
+  "type" : "FLYING",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "CLOSE_COMBAT",
+  "effect" : "EFFECT_CLOSE_COMBAT",
+  "power" : 120,
+  "type" : "FIGHTING",
+  "accuracy" : 100,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "LOW_KICK",
+  "effect" : "EFFECT_LOW_KICK",
+  "power" : 1,
+  "type" : "FIGHTING",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "COUNTER",
+  "effect" : "EFFECT_COUNTER",
+  "power" : 1,
+  "type" : "FIGHTING",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SEISMIC_TOSS",
+  "effect" : "EFFECT_LEVEL_DAMAGE",
+  "power" : 1,
+  "type" : "FIGHTING",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "STRENGTH",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 80,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "ABSORB",
+  "effect" : "EFFECT_LEECH_HIT",
+  "power" : 20,
+  "type" : "GRASS",
+  "accuracy" : 100,
+  "pp" : 25,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "MEGA_DRAIN",
+  "effect" : "EFFECT_LEECH_HIT",
+  "power" : 40,
+  "type" : "GRASS",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "LEECH_SEED",
+  "effect" : "EFFECT_LEECH_SEED",
+  "power" : 0,
+  "type" : "GRASS",
+  "accuracy" : 90,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "GROWTH",
+  "effect" : "EFFECT_GROWTH",
+  "power" : 0,
+  "type" : "GRASS",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "RAZOR_LEAF",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 55,
+  "type" : "GRASS",
+  "accuracy" : 95,
+  "pp" : 25,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SOLAR_BEAM",
+  "effect" : "EFFECT_SOLAR_BEAM",
+  "power" : 120,
+  "type" : "GRASS",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "POISONPOWDER",
+  "effect" : "EFFECT_POISON",
+  "power" : 0,
+  "type" : "POISON",
+  "accuracy" : 75,
+  "pp" : 35,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "STUN_SPORE",
+  "effect" : "EFFECT_PARALYZE",
+  "power" : 0,
+  "type" : "GRASS",
+  "accuracy" : 75,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SLEEP_POWDER",
+  "effect" : "EFFECT_SLEEP",
+  "power" : 0,
+  "type" : "GRASS",
+  "accuracy" : 75,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "PETAL_DANCE",
+  "effect" : "EFFECT_RAMPAGE",
+  "power" : 120,
+  "type" : "GRASS",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "STRING_SHOT",
+  "effect" : "EFFECT_SPEED_DOWN_2",
+  "power" : 0,
+  "type" : "BUG",
+  "accuracy" : 95,
+  "pp" : 40,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "DRAGON_RAGE",
+  "effect" : "EFFECT_STATIC_DAMAGE",
+  "power" : 40,
+  "type" : "DRAGON",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "FIRE_SPIN",
+  "effect" : "EFFECT_TRAP",
+  "power" : 35,
+  "type" : "FIRE",
+  "accuracy" : 85,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "THUNDERSHOCK",
+  "effect" : "EFFECT_PARALYZE_HIT",
+  "power" : 40,
+  "type" : "ELECTRIC",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "THUNDERBOLT",
+  "effect" : "EFFECT_PARALYZE_HIT",
+  "power" : 90,
+  "type" : "ELECTRIC",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "THUNDER_WAVE",
+  "effect" : "EFFECT_PARALYZE",
+  "power" : 0,
+  "type" : "ELECTRIC",
+  "accuracy" : 90,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "THUNDER",
+  "effect" : "EFFECT_THUNDER",
+  "power" : 110,
+  "type" : "ELECTRIC",
+  "accuracy" : 70,
+  "pp" : 10,
+  "effectChance" : 30,
+  "category" : "SPECIAL"
+}, {
+  "name" : "ROCK_THROW",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 50,
+  "type" : "ROCK",
+  "accuracy" : 90,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "EARTHQUAKE",
+  "effect" : "EFFECT_EARTHQUAKE",
+  "power" : 100,
+  "type" : "GROUND",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "AVALANCHE",
+  "effect" : "EFFECT_CONDITIONAL_BOOST",
+  "power" : 60,
+  "type" : "ICE",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DIG",
+  "effect" : "EFFECT_FLY",
+  "power" : 80,
+  "type" : "GROUND",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "TOXIC",
+  "effect" : "EFFECT_TOXIC",
+  "power" : 0,
+  "type" : "POISON",
+  "accuracy" : 90,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "CONFUSION",
+  "effect" : "EFFECT_CONFUSE_HIT",
+  "power" : 50,
+  "type" : "PSYCHIC",
+  "accuracy" : 100,
+  "pp" : 25,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "PSYCHIC_M",
+  "effect" : "EFFECT_SP_DEF_DOWN_HIT",
+  "power" : 90,
+  "type" : "PSYCHIC",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "HYPNOSIS",
+  "effect" : "EFFECT_SLEEP",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : 60,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "HONE_CLAWS",
+  "effect" : "EFFECT_HONE_CLAWS",
+  "power" : 0,
+  "type" : "DARK",
+  "accuracy" : -1,
+  "pp" : 40,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "AGILITY",
+  "effect" : "EFFECT_SPEED_UP_2",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "QUICK_ATTACK",
+  "effect" : "EFFECT_PRIORITY_HIT",
+  "power" : 40,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "RAGE",
+  "effect" : "EFFECT_RAGE",
+  "power" : 20,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "TELEPORT",
+  "effect" : "EFFECT_TELEPORT",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "NIGHT_SHADE",
+  "effect" : "EFFECT_LEVEL_DAMAGE",
+  "power" : 1,
+  "type" : "GHOST",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "DRAGON_PULSE",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 85,
+  "type" : "DRAGON",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "SCREECH",
+  "effect" : "EFFECT_DEFENSE_DOWN_2",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 85,
+  "pp" : 40,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "DOUBLE_TEAM",
+  "effect" : "EFFECT_EVASION_UP",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "RECOVER",
+  "effect" : "EFFECT_HEAL",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ROCK_BLAST",
+  "effect" : "EFFECT_MULTI_HIT",
+  "power" : 25,
+  "type" : "ROCK",
+  "accuracy" : 90,
+  "pp" : 25,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "MINIMIZE",
+  "effect" : "EFFECT_MINIMIZE",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SMOKESCREEN",
+  "effect" : "EFFECT_ACCURACY_DOWN",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "CONFUSE_RAY",
+  "effect" : "EFFECT_CONFUSE",
+  "power" : 0,
+  "type" : "GHOST",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "AQUA_TAIL",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 90,
+  "type" : "WATER",
+  "accuracy" : 90,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DEFENSE_CURL",
+  "effect" : "EFFECT_DEFENSE_CURL",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 40,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "BARRIER",
+  "effect" : "EFFECT_DEFENSE_UP_2",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "LIGHT_SCREEN",
+  "effect" : "EFFECT_LIGHT_SCREEN",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "HAZE",
+  "effect" : "EFFECT_HAZE",
+  "power" : 0,
+  "type" : "ICE",
+  "accuracy" : -1,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "REFLECT",
+  "effect" : "EFFECT_REFLECT",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "FOCUS_ENERGY",
+  "effect" : "EFFECT_FOCUS_ENERGY",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "FLASH_CANNON",
+  "effect" : "EFFECT_SP_DEF_DOWN_HIT",
+  "power" : 80,
+  "type" : "STEEL",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "METRONOME",
+  "effect" : "EFFECT_METRONOME",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SCALD",
+  "effect" : "EFFECT_BURN_HIT",
+  "power" : 80,
+  "type" : "WATER",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 30,
+  "category" : "SPECIAL"
+}, {
+  "name" : "TRICK_ROOM",
+  "effect" : "EFFECT_TRICK_ROOM",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SKILL_SWAP",
+  "effect" : "EFFECT_SKILL_SWAP",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "LICK",
+  "effect" : "EFFECT_PARALYZE_HIT",
+  "power" : 30,
+  "type" : "GHOST",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "GUNK_SHOT",
+  "effect" : "EFFECT_POISON_HIT",
+  "power" : 120,
+  "type" : "POISON",
+  "accuracy" : 80,
+  "pp" : 5,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "VENOSHOCK",
+  "effect" : "EFFECT_CONDITIONAL_BOOST",
+  "power" : 65,
+  "type" : "POISON",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "EARTH_POWER",
+  "effect" : "EFFECT_SP_DEF_DOWN_HIT",
+  "power" : 90,
+  "type" : "GROUND",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "FIRE_BLAST",
+  "effect" : "EFFECT_BURN_HIT",
+  "power" : 110,
+  "type" : "FIRE",
+  "accuracy" : 85,
+  "pp" : 5,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "WATERFALL",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 80,
+  "type" : "WATER",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 20,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "ICICLE_CRASH",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 85,
+  "type" : "ICE",
+  "accuracy" : 90,
+  "pp" : 10,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SWIFT",
+  "effect" : "EFFECT_ALWAYS_HIT",
+  "power" : 60,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "IRON_HEAD",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 80,
+  "type" : "STEEL",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 20,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "ICICLE_SPEAR",
+  "effect" : "EFFECT_MULTI_HIT",
+  "power" : 25,
+  "type" : "ICE",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "BULLDOZE",
+  "effect" : "EFFECT_SPEED_DOWN_HIT",
+  "power" : 60,
+  "type" : "GROUND",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 100,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "AMNESIA",
+  "effect" : "EFFECT_SP_DEF_UP_2",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ROOST",
+  "effect" : "EFFECT_ROOST",
+  "power" : 0,
+  "type" : "FLYING",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "FRESH_SNACK",
+  "effect" : "EFFECT_HEAL",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "HI_JUMP_KICK",
+  "effect" : "EFFECT_JUMP_KICK",
+  "power" : 130,
+  "type" : "FIGHTING",
+  "accuracy" : 90,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "GLARE",
+  "effect" : "EFFECT_PARALYZE",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "DREAM_EATER",
+  "effect" : "EFFECT_DREAM_EATER",
+  "power" : 100,
+  "type" : "PSYCHIC",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "POISON_JAB",
+  "effect" : "EFFECT_POISON_HIT",
+  "power" : 80,
+  "type" : "POISON",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "BULLET_PUNCH",
+  "effect" : "EFFECT_PRIORITY_HIT",
+  "power" : 40,
+  "type" : "STEEL",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "LEECH_LIFE",
+  "effect" : "EFFECT_LEECH_HIT",
+  "power" : 80,
+  "type" : "BUG",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DRAINING_KISS",
+  "effect" : "EFFECT_LEECH_HIT",
+  "power" : 50,
+  "type" : "FAIRY",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "BRAVE_BIRD",
+  "effect" : "EFFECT_RECOIL_HIT",
+  "power" : 120,
+  "type" : "FLYING",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "TRANSFORM",
+  "effect" : "EFFECT_TRANSFORM",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "WATER_PULSE",
+  "effect" : "EFFECT_CONFUSE_HIT",
+  "power" : 60,
+  "type" : "WATER",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 20,
+  "category" : "SPECIAL"
+}, {
+  "name" : "DIZZY_PUNCH",
+  "effect" : "EFFECT_CONFUSE_HIT",
+  "power" : 70,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 20,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SPORE",
+  "effect" : "EFFECT_SLEEP",
+  "power" : 0,
+  "type" : "GRASS",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "FLASH",
+  "effect" : "EFFECT_ACCURACY_DOWN",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "EXTRASENSORY",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 80,
+  "type" : "PSYCHIC",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "SPLASH",
+  "effect" : "EFFECT_SPLASH",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 40,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "DRAGON_DANCE",
+  "effect" : "EFFECT_DRAGON_DANCE",
+  "power" : 0,
+  "type" : "DRAGON",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "CRABHAMMER",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 100,
+  "type" : "WATER",
+  "accuracy" : 95,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "EXPLOSION",
+  "effect" : "EFFECT_EXPLOSION",
+  "power" : 250,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "FURY_STRIKES",
+  "effect" : "EFFECT_MULTI_HIT",
+  "power" : 18,
+  "type" : "NORMAL",
+  "accuracy" : 80,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "BONEMERANG",
+  "effect" : "EFFECT_DOUBLE_HIT",
+  "power" : 50,
+  "type" : "GROUND",
+  "accuracy" : 90,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "REST",
+  "effect" : "EFFECT_HEAL",
+  "power" : 0,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ROCK_SLIDE",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 75,
+  "type" : "ROCK",
+  "accuracy" : 90,
+  "pp" : 10,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "HYPER_FANG",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 80,
+  "type" : "NORMAL",
+  "accuracy" : 90,
+  "pp" : 15,
+  "effectChance" : 10,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "BULK_UP",
+  "effect" : "EFFECT_BULK_UP",
+  "power" : 0,
+  "type" : "FIGHTING",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "CONVERSION",
+  "effect" : "EFFECT_CONVERSION",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "TRI_ATTACK",
+  "effect" : "EFFECT_TRI_ATTACK",
+  "power" : 80,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 20,
+  "category" : "SPECIAL"
+}, {
+  "name" : "SUPER_FANG",
+  "effect" : "EFFECT_SUPER_FANG",
+  "power" : 1,
+  "type" : "NORMAL",
+  "accuracy" : 90,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SLASH",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 70,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SUBSTITUTE",
+  "effect" : "EFFECT_SUBSTITUTE",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "GIGA_IMPACT",
+  "effect" : "EFFECT_HYPER_BEAM",
+  "power" : 150,
+  "type" : "NORMAL",
+  "accuracy" : 90,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SKETCH",
+  "effect" : "EFFECT_SKETCH",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 1,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "DRAIN_PUNCH",
+  "effect" : "EFFECT_LEECH_HIT",
+  "power" : 75,
+  "type" : "FIGHTING",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "THIEF",
+  "effect" : "EFFECT_THIEF",
+  "power" : 60,
+  "type" : "DARK",
+  "accuracy" : 100,
+  "pp" : 25,
+  "effectChance" : 100,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "WILL_O_WISP",
+  "effect" : "EFFECT_BURN",
+  "power" : 0,
+  "type" : "FIRE",
+  "accuracy" : 85,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ZEN_HEADBUTT",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 80,
+  "type" : "PSYCHIC",
+  "accuracy" : 90,
+  "pp" : 15,
+  "effectChance" : 20,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "FACADE",
+  "effect" : "EFFECT_CONDITIONAL_BOOST",
+  "power" : 70,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "FLAME_CHARGE",
+  "effect" : "EFFECT_SPEED_UP_HIT",
+  "power" : 50,
+  "type" : "FIRE",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 100,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "HYPER_VOICE",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 90,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "CURSE",
+  "effect" : "EFFECT_CURSE",
+  "power" : 0,
+  "type" : "GHOST",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "GYRO_BALL",
+  "effect" : "EFFECT_GYRO_BALL",
+  "power" : 1,
+  "type" : "STEEL",
+  "accuracy" : 100,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "ENERGY_BALL",
+  "effect" : "EFFECT_SP_DEF_DOWN_HIT",
+  "power" : 90,
+  "type" : "GRASS",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "AEROBLAST",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 100,
+  "type" : "FLYING",
+  "accuracy" : 95,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "SEED_BOMB",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 80,
+  "type" : "GRASS",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "REVERSAL",
+  "effect" : "EFFECT_REVERSAL",
+  "power" : 1,
+  "type" : "FIGHTING",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "ASTONISH",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 30,
+  "type" : "GHOST",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "ICE_SHARD",
+  "effect" : "EFFECT_PRIORITY_HIT",
+  "power" : 40,
+  "type" : "ICE",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "PROTECT",
+  "effect" : "EFFECT_PROTECT",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "MACH_PUNCH",
+  "effect" : "EFFECT_PRIORITY_HIT",
+  "power" : 40,
+  "type" : "FIGHTING",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SCARY_FACE",
+  "effect" : "EFFECT_SPEED_DOWN_2",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "FEINT_ATTACK",
+  "effect" : "EFFECT_ALWAYS_HIT",
+  "power" : 60,
+  "type" : "DARK",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SWEET_KISS",
+  "effect" : "EFFECT_CONFUSE",
+  "power" : 0,
+  "type" : "FAIRY",
+  "accuracy" : 75,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "BELLY_DRUM",
+  "effect" : "EFFECT_BELLY_DRUM",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SLUDGE_BOMB",
+  "effect" : "EFFECT_POISON_HIT",
+  "power" : 90,
+  "type" : "POISON",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 30,
+  "category" : "SPECIAL"
+}, {
+  "name" : "MUD_SLAP",
+  "effect" : "EFFECT_ACCURACY_DOWN_HIT",
+  "power" : 20,
+  "type" : "GROUND",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 100,
+  "category" : "SPECIAL"
+}, {
+  "name" : "OCTAZOOKA",
+  "effect" : "EFFECT_ACCURACY_DOWN_HIT",
+  "power" : 65,
+  "type" : "WATER",
+  "accuracy" : 85,
+  "pp" : 10,
+  "effectChance" : 50,
+  "category" : "SPECIAL"
+}, {
+  "name" : "SPIKES",
+  "effect" : "EFFECT_SPIKES",
+  "power" : 0,
+  "type" : "GROUND",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ZAP_CANNON",
+  "effect" : "EFFECT_PARALYZE_HIT",
+  "power" : 120,
+  "type" : "ELECTRIC",
+  "accuracy" : 50,
+  "pp" : 5,
+  "effectChance" : 100,
+  "category" : "SPECIAL"
+}, {
+  "name" : "FORESIGHT",
+  "effect" : "EFFECT_FORESIGHT",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 40,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "DESTINY_BOND",
+  "effect" : "EFFECT_DESTINY_BOND",
+  "power" : 0,
+  "type" : "GHOST",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "PERISH_SONG",
+  "effect" : "EFFECT_PERISH_SONG",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ICY_WIND",
+  "effect" : "EFFECT_SPEED_DOWN_HIT",
+  "power" : 55,
+  "type" : "ICE",
+  "accuracy" : 95,
+  "pp" : 15,
+  "effectChance" : 100,
+  "category" : "SPECIAL"
+}, {
+  "name" : "POWER_GEM",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 80,
+  "type" : "ROCK",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "WILD_CHARGE",
+  "effect" : "EFFECT_RECOIL_HIT",
+  "power" : 90,
+  "type" : "ELECTRIC",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "POWER_WHIP",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 120,
+  "type" : "GRASS",
+  "accuracy" : 85,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "OUTRAGE",
+  "effect" : "EFFECT_RAMPAGE",
+  "power" : 120,
+  "type" : "DRAGON",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SANDSTORM",
+  "effect" : "EFFECT_SANDSTORM",
+  "power" : 0,
+  "type" : "ROCK",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "GIGA_DRAIN",
+  "effect" : "EFFECT_LEECH_HIT",
+  "power" : 75,
+  "type" : "GRASS",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "ENDURE",
+  "effect" : "EFFECT_ENDURE",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "CHARM",
+  "effect" : "EFFECT_ATTACK_DOWN_2",
+  "power" : 0,
+  "type" : "FAIRY",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ROLLOUT",
+  "effect" : "EFFECT_ROLLOUT",
+  "power" : 30,
+  "type" : "ROCK",
+  "accuracy" : 90,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "FALSE_SWIPE",
+  "effect" : "EFFECT_FALSE_SWIPE",
+  "power" : 40,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 40,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SWAGGER",
+  "effect" : "EFFECT_SWAGGER",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 85,
+  "pp" : 15,
+  "effectChance" : 100,
+  "category" : "STATUS"
+}, {
+  "name" : "SHELL_SMASH",
+  "effect" : "EFFECT_SHELL_SMASH",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SPARK",
+  "effect" : "EFFECT_PARALYZE_HIT",
+  "power" : 65,
+  "type" : "ELECTRIC",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "BUG_BITE",
+  "effect" : "EFFECT_BUG_BITE",
+  "power" : 60,
+  "type" : "BUG",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "STEEL_WING",
+  "effect" : "EFFECT_DEFENSE_UP_HIT",
+  "power" : 70,
+  "type" : "STEEL",
+  "accuracy" : 90,
+  "pp" : 25,
+  "effectChance" : 10,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "MEAN_LOOK",
+  "effect" : "EFFECT_MEAN_LOOK",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ATTRACT",
+  "effect" : "EFFECT_ATTRACT",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SLEEP_TALK",
+  "effect" : "EFFECT_SLEEP_TALK",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "HEAL_BELL",
+  "effect" : "EFFECT_HEAL_BELL",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "RETURN",
+  "effect" : "EFFECT_RETURN",
+  "power" : 1,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "PSYSTRIKE",
+  "effect" : "EFFECT_PSYSTRIKE",
+  "power" : 100,
+  "type" : "PSYCHIC",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "BUG_BUZZ",
+  "effect" : "EFFECT_SP_DEF_DOWN_HIT",
+  "power" : 90,
+  "type" : "BUG",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "SAFEGUARD",
+  "effect" : "EFFECT_SAFEGUARD",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 25,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "PAIN_SPLIT",
+  "effect" : "EFFECT_PAIN_SPLIT",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SACRED_FIRE",
+  "effect" : "EFFECT_SACRED_FIRE",
+  "power" : 100,
+  "type" : "FIRE",
+  "accuracy" : 95,
+  "pp" : 5,
+  "effectChance" : 50,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "MAGNITUDE",
+  "effect" : "EFFECT_MAGNITUDE",
+  "power" : 1,
+  "type" : "GROUND",
+  "accuracy" : 100,
+  "pp" : 30,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DYNAMICPUNCH",
+  "effect" : "EFFECT_CONFUSE_HIT",
+  "power" : 100,
+  "type" : "FIGHTING",
+  "accuracy" : 50,
+  "pp" : 5,
+  "effectChance" : 100,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "MEGAHORN",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 120,
+  "type" : "BUG",
+  "accuracy" : 85,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DRAGONBREATH",
+  "effect" : "EFFECT_PARALYZE_HIT",
+  "power" : 60,
+  "type" : "DRAGON",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 30,
+  "category" : "SPECIAL"
+}, {
+  "name" : "BATON_PASS",
+  "effect" : "EFFECT_BATON_PASS",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 40,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "ENCORE",
+  "effect" : "EFFECT_ENCORE",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "PURSUIT",
+  "effect" : "EFFECT_PURSUIT",
+  "power" : 40,
+  "type" : "DARK",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "RAPID_SPIN",
+  "effect" : "EFFECT_RAPID_SPIN",
+  "power" : 50,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 40,
+  "effectChance" : 100,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "SHADOW_CLAW",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 70,
+  "type" : "GHOST",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "IRON_TAIL",
+  "effect" : "EFFECT_DEFENSE_DOWN_HIT",
+  "power" : 100,
+  "type" : "STEEL",
+  "accuracy" : 75,
+  "pp" : 15,
+  "effectChance" : 30,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "METAL_CLAW",
+  "effect" : "EFFECT_ATTACK_UP_HIT",
+  "power" : 50,
+  "type" : "STEEL",
+  "accuracy" : 95,
+  "pp" : 35,
+  "effectChance" : 10,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "AURA_SPHERE",
+  "effect" : "EFFECT_ALWAYS_HIT",
+  "power" : 80,
+  "type" : "FIGHTING",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "HEALINGLIGHT",
+  "effect" : "EFFECT_HEALING_LIGHT",
+  "power" : 0,
+  "type" : "NORMAL",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "HURRICANE",
+  "effect" : "EFFECT_CONFUSE_HIT",
+  "power" : 110,
+  "type" : "FLYING",
+  "accuracy" : 70,
+  "pp" : 10,
+  "effectChance" : 30,
+  "category" : "SPECIAL"
+}, {
+  "name" : "KNOCK_OFF",
+  "effect" : "EFFECT_KNOCK_OFF",
+  "power" : 65,
+  "type" : "DARK",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 100,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "HIDDEN_POWER",
+  "effect" : "EFFECT_HIDDEN_POWER",
+  "power" : 60,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "CROSS_CHOP",
+  "effect" : "EFFECT_NORMAL_HIT",
+  "power" : 100,
+  "type" : "FIGHTING",
+  "accuracy" : 80,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "AQUA_JET",
+  "effect" : "EFFECT_PRIORITY_HIT",
+  "power" : 40,
+  "type" : "WATER",
+  "accuracy" : 100,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "RAIN_DANCE",
+  "effect" : "EFFECT_RAIN_DANCE",
+  "power" : 0,
+  "type" : "WATER",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "SUNNY_DAY",
+  "effect" : "EFFECT_SUNNY_DAY",
+  "power" : 0,
+  "type" : "FIRE",
+  "accuracy" : -1,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "CRUNCH",
+  "effect" : "EFFECT_DEFENSE_DOWN_HIT",
+  "power" : 80,
+  "type" : "DARK",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 20,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "MIRROR_COAT",
+  "effect" : "EFFECT_COUNTER",
+  "power" : 1,
+  "type" : "PSYCHIC",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "NASTY_PLOT",
+  "effect" : "EFFECT_SP_ATK_UP_2",
+  "power" : 0,
+  "type" : "DARK",
+  "accuracy" : -1,
+  "pp" : 20,
+  "effectChance" : 0,
+  "category" : "STATUS"
+}, {
+  "name" : "EXTREMESPEED",
+  "effect" : "EFFECT_PRIORITY_HIT",
+  "power" : 80,
+  "type" : "NORMAL",
+  "accuracy" : 100,
+  "pp" : 5,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "ANCIENTPOWER",
+  "effect" : "EFFECT_ALL_UP_HIT",
+  "power" : 60,
+  "type" : "ROCK",
+  "accuracy" : 100,
+  "pp" : 5,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "SHADOW_BALL",
+  "effect" : "EFFECT_SP_DEF_DOWN_HIT",
+  "power" : 80,
+  "type" : "GHOST",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 20,
+  "category" : "SPECIAL"
+}, {
+  "name" : "FUTURE_SIGHT",
+  "effect" : "EFFECT_FUTURE_SIGHT",
+  "power" : 120,
+  "type" : "PSYCHIC",
+  "accuracy" : 100,
+  "pp" : 10,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "ROCK_SMASH",
+  "effect" : "EFFECT_DEFENSE_DOWN_HIT",
+  "power" : 40,
+  "type" : "FIGHTING",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 50,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "WHIRLPOOL",
+  "effect" : "EFFECT_TRAP",
+  "power" : 35,
+  "type" : "WATER",
+  "accuracy" : 85,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "DARK_PULSE",
+  "effect" : "EFFECT_FLINCH_HIT",
+  "power" : 80,
+  "type" : "DARK",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 20,
+  "category" : "SPECIAL"
+}, {
+  "name" : "MOONBLAST",
+  "effect" : "EFFECT_SP_ATK_DOWN_HIT",
+  "power" : 95,
+  "type" : "FAIRY",
+  "accuracy" : 100,
+  "pp" : 15,
+  "effectChance" : 10,
+  "category" : "SPECIAL"
+}, {
+  "name" : "PLAY_ROUGH",
+  "effect" : "EFFECT_ATTACK_DOWN_HIT",
+  "power" : 90,
+  "type" : "FAIRY",
+  "accuracy" : 90,
+  "pp" : 10,
+  "effectChance" : 10,
+  "category" : "PHYSICAL"
+}, {
+  "name" : "DISARM_VOICE",
+  "effect" : "EFFECT_ALWAYS_HIT",
+  "power" : 40,
+  "type" : "FAIRY",
+  "accuracy" : -1,
+  "pp" : 15,
+  "effectChance" : 0,
+  "category" : "SPECIAL"
+}, {
+  "name" : "STRUGGLE",
+  "effect" : "EFFECT_RECOIL_HIT",
+  "power" : 50,
+  "type" : "UNKNOWN_T",
+  "accuracy" : -1,
+  "pp" : 1,
+  "effectChance" : 0,
+  "category" : "PHYSICAL"
+} ]
