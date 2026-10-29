@@ -7,7 +7,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: grayscale;
-  font-optical-sizing: auto;
 }
 
 * {
@@ -25,10 +24,8 @@ body {
   margin: 0;
 }
 
-button {
+button,
+input,
+select {
   font-family: inherit;
-}
-
-button:disabled {
-  cursor: not-allowed;
 }
